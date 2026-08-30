@@ -106,9 +106,17 @@ function CustomerDashboard() {
                 <p className="text-xs text-navy-foreground/60">Customer dashboard</p>
               </div>
             </div>
-            <Badge className="bg-primary/15 text-primary hover:bg-primary/15">
-              <BadgeCheck className="mr-1 size-3.5" /> Verified workers only
-            </Badge>
+            <div className="flex items-center gap-4">
+              <Link
+                to="/worker"
+                className="text-xs uppercase tracking-widest text-navy-foreground/70 hover:text-primary"
+              >
+                Worker view
+              </Link>
+              <Badge className="bg-primary/15 text-primary hover:bg-primary/15">
+                <BadgeCheck className="mr-1 size-3.5" /> Verified workers only
+              </Badge>
+            </div>
           </div>
 
           <h1 className="mt-10 max-w-xl text-4xl font-bold leading-tight sm:text-5xl">
