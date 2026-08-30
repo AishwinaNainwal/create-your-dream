@@ -36,7 +36,7 @@ const today = new Date().toISOString().slice(0, 10);
 export function BookingFlow({ worker, serviceName, location, onClose, onConfirm }: Props) {
   const [step, setStep] = useState<"schedule" | "payment">("schedule");
   const [date, setDate] = useState(today);
-  const [slot, setSlot] = useState(timeSlots[1]);
+  const [slot, setSlot] = useState(timeSlots[1]!);
   const [hours, setHours] = useState("2");
   const [method, setMethod] = useState("card");
 

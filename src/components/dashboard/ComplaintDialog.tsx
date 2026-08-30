@@ -38,7 +38,7 @@ export function ComplaintDialog({
   onClose: () => void;
   onSubmit: (id: string, complaint: string) => void;
 }) {
-  const [reason, setReason] = useState(reasons[0]);
+  const [reason, setReason] = useState(reasons[0]!);
   const [details, setDetails] = useState("");
 
   if (!booking) return null;
