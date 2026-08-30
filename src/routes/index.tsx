@@ -113,6 +113,12 @@ function CustomerDashboard() {
               >
                 Worker view
               </Link>
+              <Link
+                to="/coop"
+                className="text-xs uppercase tracking-widest text-navy-foreground/70 hover:text-primary"
+              >
+                Co-op view
+              </Link>
               <Badge className="bg-primary/15 text-primary hover:bg-primary/15">
                 <BadgeCheck className="mr-1 size-3.5" /> Verified workers only
               </Badge>

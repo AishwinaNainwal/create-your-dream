@@ -129,6 +129,12 @@ function WorkerDashboard() {
               >
                 Customer view
               </Link>
+              <Link
+                to="/coop"
+                className="text-xs uppercase tracking-widest text-navy-foreground/70 hover:text-primary"
+              >
+                Co-op view
+              </Link>
               <div className="flex items-center gap-2 rounded-full border border-navy-foreground/15 bg-navy-foreground/5 px-3 py-1.5">
                 <Switch
                   id="online"
